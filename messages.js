@@ -9,7 +9,8 @@ const messageParagraphs = [
     "And about the websites, I've only made them for two people, you and Chitti Akka.... Chitti is my elder sister, and I genuinely care about her, so obviously I wanted to make something for her birthday. But that doesn't mean what I did for you was something I normally do for everyone. & a she always brings me chocolates and food items to eat. Unlike us, she actually brings healthy snacks 😂",
     "So please don't think you simply imagined being special and that everything started because of some misunderstanding. Maybe you gave certain things more meaning at the beginning than I did at that exact point, but I wouldn't have continued getting this close to you if I didn't genuinely want to.",
     "I don't build things for every girl I know 😭😂. I genuinely love building things specifically for you, and even now, if I get an idea that I know you'll like, my first thought is usually, \"I should make this for her\" 😅.",
-    "So maybe the starting point wasn't exactly the same from both our sides, but I don't think everything that happened after that was imaginary or meaningless. You became special to me because of everything that happened between us, not because of one chocolate or one website. 💙"
+    "So maybe the starting point wasn't exactly the same from both our sides, but I don't think everything that happened after that was imaginary or meaningless. You became special to me because of everything that happened between us, not because of one chocolate or one website. 💙",
+    "The moon is beautiful, isn't it........?"
 ];
 
 export const openingMessage = messageParagraphs[0];
@@ -22,7 +23,8 @@ const stopTitles = [
     'The websites',
     'It wasn’t imagined',
     'Made for you',
-    'What was real'
+    'What was real',
+    'The moon'
 ];
 export const messageStops = stopTitles.map((title, index) => ({ title, text: messageParagraphs[index] }));
 
